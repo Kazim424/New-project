@@ -1,0 +1,567 @@
+body {
+   background-color: #FFF;
+}
+
+/* main slide nav and logo */
+
+.main{
+   height: 12vh; 
+   flex-shrink: 0;
+   background: #163A59;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   }
+   
+   .main img{
+      width: 23vw;
+      height: 12vh;
+      flex-shrink: 0;
+      background: #163A59;
+   }
+
+   .main button{
+color: #000;
+font-size: 16.314px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 5px;
+text-align: center;
+font-size: 15px;
+border-radius: 18px;
+background: #EDCD54;
+width: 130px;
+   }
+
+/* line */
+.line{
+margin-top: 0px;
+border:1px solid #1275cc;
+margin-bottom: 0px;
+   }
+
+/* main slide -text */
+.section2{
+background-color: #163A59;
+}
+
+.main-title {
+   margin-top: 170px;
+   float: left;
+   color: #FFF;
+   font-family: Inter;
+   font-size:38px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   /* background: #163A59; */
+}
+
+.main-title span{
+   color: #EDCD54;
+}
+
+.main-text{
+color: #A6B6C4;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: #163A59;
+
+}
+
+/* main slide form */
+.take_input{
+   border: 2px solid #1275cc;
+   background: #163A59;
+   height: 89vh;
+}
+
+.form_input input{
+width: 320px;
+height: 48.037px;
+flex-shrink: 0;
+border-radius: 9.419px;
+background: #195c96;;
+border: none;
+}
+.form_input label{
+   color: #9CA5AD;
+}
+.form_input label div{ 
+   margin-top: -4vh;
+   margin-left: 6.5vw;
+width: 15px;
+height: 15px;
+   background: #EDCD54;
+   color: rgb(17, 17, 17);
+   border-radius: 50%;
+   font-size: 11px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.form_input button{
+color: #000;
+font-size: 16px;;
+font-weight: 500px;
+margin-right: 20px;
+border-radius: 15px;
+background: #EDCD54;
+width: 150px;
+}
+
+.form_input p{
+position: relative;
+color: #EDCD54;
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+margin-left: 170px;
+margin-right: 45px;
+margin-top: 3px;
+}
+/* trusted */
+.trusted{
+   margin-top: 40px;
+color: #A6B6C4;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+word-spacing: 5px;
+}
+
+/* trusted logo */
+.trusted_logo{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+
+.trusted_logo img{
+   margin-top: 40px;
+   margin-bottom: 40px;
+   height: 35px;
+   width: 35px;
+   color: white;
+
+}
+
+.trusted_logo img:nth-child(3){
+   /* background-color: #163A59; */
+   background-color: white;
+}
+
+/* section 3 start */
+
+.section3{
+   background: #FFF;
+}
+.section3 h4,.section6 h4{
+   margin-top: 11vh;
+   color: #000;
+   text-align: center;
+}
+
+.section3 h4 span,.section6 h4 span{
+   background-color:  #80dfff;
+}
+
+.social{
+   margin-top: 12vh;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-left: 4vw;
+}
+
+.social-box{
+   width: 140px;
+   height: 140px;
+   border-right: 1px solid  #cdd0d4;
+   padding: 5px;
+}
+
+.social-box svg{
+margin-left: 44px;
+margin-bottom: 2vh;
+}
+
+.social-box p{
+   text-align: center;
+}
+
+.box5{
+   border: none;
+}
+
+.section3 button,.section5 button, .section6 button{
+   margin-top: 6vh;
+color: #000;
+font-size: 16px;;
+font-weight: 600px;
+margin-right: 20px;
+border-radius: 15px;
+background: #EDCD54;
+width: 150px;
+margin-left: 40%;
+}
+
+
+.section3 .socialp, .section5 p, .section6 p{
+color: #000;
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+margin-top: 5px;
+
+}
+
+/* apps section start */
+
+.apps{
+   margin-top: 8vh;
+   height: 160px;
+   background: #F4F4F4;
+   margin-bottom: 5vh;
+}
+
+.apps p{
+color: #010101;
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.apps-img{
+   margin-top: 8vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.apps-img img{
+   width: 43px;
+   height: 40px;
+}
+
+/* benifits */
+.benifits-h4{
+   
+      margin-top: 11vh;
+      color: #000;
+      text-align: center;
+      margin-bottom: 8vh;
+}
+
+.benifits-h4 span{
+   background-color:  #80dfff;   
+}
+
+/* benifits box */
+
+.container2{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.benifits-box1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 213px;
+height: 123px;
+border-radius: 14px;
+background: #F4F4F4;
+margin-left: 0.8vw;
+}
+
+.benifits-box1 img{
+
+width: 55px;
+height: 65px;
+border-right: 1px solid  #cdd0d4;
+margin-right: 1.5vw;
+margin-left: 2.5vw;
+padding: 7px;
+}
+
+.benifits-box1 p{
+color: rgba(0, 0, 0, 0.75);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 2.5vw;
+}
+.benifits-box1 p span{
+color: rgba(0, 0, 0, 0.75);
+font-weight: 300;
+}
+
+.benifits-box1 .box2{
+   font-size: 12px;
+   margin-right: 1.5vw;
+   color: red;
+}
+
+.box3{
+   width: 270px;
+height: 123px;
+}
+
+.unify-h4{
+   margin-top: 11vh;
+   color: #000;
+   text-align: center;
+}
+
+.stop-spending{
+margin-top:3vh ;
+color: rgba(0, 0, 0, 0.75);
+text-align: center;
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+margin-bottom: 8vh;
+}
+
+
+/* team page css start*/
+
+.section5{
+background-color: #163A59;
+margin-top: 10vh;
+height: 105vh;
+}
+
+.team-h4{
+   margin-top: 5vh;
+text-align: center;
+margin-bottom: 7vh;
+}
+.team-h4 span{
+   background-color:  #80dfff;   
+}
+
+/* teams img */
+.container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* flex-wrap: wrap; */
+}
+
+.teams-img{
+   position: relative;
+   width: 180px;
+   height: 60vh;
+  
+}
+.teams-img img{
+position: absolute;
+width: 65px;
+height: 100px;
+z-index: 1;
+left: 5vw;
+
+}
+
+.teams-img svg{
+   position: absolute;
+   margin-top: 20px;
+   margin-left: -10px;
+   background-color: #fff;
+   border-radius: 50%;
+   padding: 5px;
+   z-index: 2;
+   left: 5vw;
+   
+}
+
+.teams-img h5{
+position: relative;
+margin-top: 20vh;
+padding: 5px;
+color: #FFF;
+text-align: center;
+font-size: 11px;;
+font-weight: 600;
+
+}
+
+.teams-img p{
+color: #A6B6C4;
+text-align: center;
+font-size: 11px;
+font-weight: 400;
+padding: 5px;
+}
+
+/* Employee page */
+.employee{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 10vh;
+}
+
+
+
+.customer-box{
+height: 400px;
+width: 220px;
+
+border-radius: 10px;
+border: 2px solid #E9E9E9;
+background: #FFF;
+box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.customer-box1 p{
+   margin-top: 7vh;
+   padding: 15px;
+}
+
+#employee-img{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#employee-img img{
+   margin-top: -30px;
+   width: 67px;
+   height: 90px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+#employee-img h5{
+color: #070707;
+font-size: 17px;
+font-weight: 600;
+margin-left: 2vh;
+margin-bottom: 2vh;
+}
+
+#employee-img p{
+   margin-top: -20px;
+   color: #070707;
+   font-size: 13px;
+   font-weight: 400;
+   padding: 10px;
+}
+
+/* section6 last color box */
+
+.section6 .box1,.section6 .box2{
+   height: 36px;
+   width: 50px;
+   background: linear-gradient(86deg, #BBEAF3 -45.99%, #58B6D3 100%);
+   box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.22);
+}
+.section6 .box1{
+   margin-top: 2vh;
+}
+.section6 .box2{
+   margin-top: -10vh;
+}
+
+/* home page eachslide button */
+a .homepagebtn{
+   margin-top: 6vh;
+   color: #000;
+   font-size: 16px;;  
+   font-weight: 600px;
+   /* margin-right: 20px; */
+   border-radius: 15px;
+   background-color: #EDCD54;
+   width: 150px;
+   margin-left: 40%;
+}
+a .homebtn{
+   margin-top: 1vh;
+}
+
+
+
+/*navbar button content page */
+.btn {
+   padding: 5px;
+   margin-right: 1px;
+   font-size: 9px;
+   border-radius: 4.881px;
+   border: 1px solid #DADADA;
+   background: #F0F0F0;
+   
+}
+
+
+.btn a {
+   text-decoration: none;
+   color: #101010;
+   text-align: center;
+   font-weight: 400;
+}
+
+.navbar .active {
+   border-radius: 4.881px;
+   border: 1px solid #F17B7B;
+   background: #FFB8B8;
+}
+
+
+/* heading  */
+ h6 {
+font-size: 0.9rem;
+color: #000;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* paragraph */
+p {
+   font-size: 0.8rem;
+   color: rgba(0, 0, 0, 0.85);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+}
+
+
+/* content7 */
+ .text7 p {
+   font-size: 0.7rem;
+}
+
+.text7 h6 {
+   font-size: 1rem;
+} 
+
+/* image1 slide */
+.image1{
+width: 1440px;
+height: 20pc;
+flex-shrink: 0;
+}
+section{
+   cursor: -moz-grabbing;
+}
+
